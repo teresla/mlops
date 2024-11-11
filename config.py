@@ -17,7 +17,7 @@ class TrainingConfig:
     warmup_steps: int = 0
     weight_decay: float = 0.0
     gradient_clip_val: float = 1.0
-    epochs: int = 1
+    epochs: int = 3
     accumulate_grad_batches: int = 1
 
 @dataclass
